@@ -17,7 +17,7 @@
 
                     public $nome;
                     public $location;
-                    public $prodotti;
+                    public $prodotti = [];
 
                     public function __construct ($nome, $location){
 
@@ -32,7 +32,7 @@
                 var_dump($magazzino);
 
                 echo '<br>';
-                
+
                 class Prodotto {
 
                     public $nome;
